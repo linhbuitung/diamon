@@ -1,0 +1,28 @@
+.diamon-square {
+	margin: 0;
+	display: inline-block;
+	border-top: 5rem solid rgb(0, 150, 0);
+	border-left: 5rem solid rgb(10, 177, 10);
+	border-right: 5rem solid rgb(21, 209, 21);
+	border-bottom: 5rem solid rgb(32, 236, 32);
+}
+.diamon-square-half {
+	margin: 0;
+	display: inline-block;
+	border-top: 5rem solid transparent;
+	border-left: 5rem solid transparent;
+	border-right: 5rem solid rgb(0, 150, 0);
+	border-bottom: 5rem solid rgb(32, 236, 32);
+}
+.diamon-row {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+#diamon {
+	left: 50vw;
+	top: 50vh;
+	transform: translate(-50%, -50%) rotate(45deg);
+	display: block;
+	position: absolute;
+}
